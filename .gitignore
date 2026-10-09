@@ -1,0 +1,73 @@
+# macOS metadata
+.DS_Store
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# C and C++ build directories
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+
+# C and C++ build products
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.dSYM/
+
+# Locally compiled project executables
+/raytracer
+/testSceneParser
+/testGeometry
+
+# CMake-generated files accidentally created in the source tree
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+Makefile
+_deps/
+
+# User-specific CMake configuration
+CMakeUserPresets.json
+
+# Ninja-generated files accidentally created in the source tree
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# CTest-generated files
+Testing/
+
+# Temporary test files
+/invalidScene.json
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Test and coverage output
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+/coverage/
+
+# Generated Doxygen output
+# Keep documentation source files and configuration tracked.
+/docs/html/
+/docs/latex/
+/docs/xml/
+# Render outputs
+/*.png

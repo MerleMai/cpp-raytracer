@@ -1,0 +1,269 @@
+{
+    "screen": {
+        "dpi": 240,
+        "dimensions": [
+            3.2,
+            1.8
+        ],
+        "position": [
+            -1.6,
+            -0.9,
+            -4
+        ],
+        "observer": [
+            0,
+            0,
+            -10
+        ]
+    },
+    "medium": {
+        "ambient": [
+            0.26,
+            0.27,
+            0.3
+        ],
+        "index": 1.0,
+        "recursion": 3
+    },
+    "sources": [
+        {
+            "position": [
+                -3,
+                4.5,
+                -3
+            ],
+            "intensity": [
+                0.9,
+                0.9,
+                0.85
+            ]
+        },
+        {
+            "position": [
+                4,
+                3,
+                1
+            ],
+            "intensity": [
+                0.35,
+                0.35,
+                0.4
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "sphere": {
+                "position": [
+                    0,
+                    0,
+                    0.5
+                ],
+                "radius": 1.25,
+                "color": {
+                    "ambient": [
+                        0.01,
+                        0.01,
+                        0.01
+                    ],
+                    "diffuse": [
+                        0.02,
+                        0.02,
+                        0.02
+                    ],
+                    "specular": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "reflected": [
+                        0.12,
+                        0.12,
+                        0.12
+                    ],
+                    "refracted": [
+                        0.92,
+                        0.94,
+                        0.95
+                    ],
+                    "shininess": 250
+                },
+                "index": 1.5
+            }
+        },
+        {
+            "sphere": {
+                "position": [
+                    -1.45,
+                    0.05,
+                    4.6
+                ],
+                "radius": 0.62,
+                "color": {
+                    "ambient": [
+                        0.3,
+                        0.06,
+                        0.06
+                    ],
+                    "diffuse": [
+                        0.9,
+                        0.15,
+                        0.15
+                    ],
+                    "specular": [
+                        0.4,
+                        0.4,
+                        0.4
+                    ],
+                    "shininess": 25
+                },
+                "index": 1.5
+            }
+        },
+        {
+            "sphere": {
+                "position": [
+                    0,
+                    0.05,
+                    4.6
+                ],
+                "radius": 0.62,
+                "color": {
+                    "ambient": [
+                        0.06,
+                        0.3,
+                        0.1
+                    ],
+                    "diffuse": [
+                        0.15,
+                        0.9,
+                        0.3
+                    ],
+                    "specular": [
+                        0.4,
+                        0.4,
+                        0.4
+                    ],
+                    "shininess": 25
+                },
+                "index": 1.5
+            }
+        },
+        {
+            "sphere": {
+                "position": [
+                    1.45,
+                    0.05,
+                    4.6
+                ],
+                "radius": 0.62,
+                "color": {
+                    "ambient": [
+                        0.06,
+                        0.1,
+                        0.3
+                    ],
+                    "diffuse": [
+                        0.2,
+                        0.35,
+                        0.95
+                    ],
+                    "specular": [
+                        0.4,
+                        0.4,
+                        0.4
+                    ],
+                    "shininess": 25
+                },
+                "index": 1.5
+            }
+        },
+        {
+            "halfSpace": {
+                "position": [
+                    0,
+                    -1.25,
+                    0
+                ],
+                "normal": [
+                    0,
+                    1,
+                    0
+                ],
+                "color": {
+                    "ambient": [
+                        0.16,
+                        0.13,
+                        0.11
+                    ],
+                    "diffuse": [
+                        0.62,
+                        0.5,
+                        0.42
+                    ],
+                    "specular": [
+                        0.15,
+                        0.15,
+                        0.15
+                    ],
+                    "shininess": 20
+                },
+                "index": 1.0
+            }
+        },
+        {
+            "halfSpace": {
+                "position": [
+                    0,
+                    0,
+                    7
+                ],
+                "normal": [
+                    0,
+                    0,
+                    -1
+                ],
+                "color": {
+                    "ambient": [
+                        0.12,
+                        0.16,
+                        0.22
+                    ],
+                    "diffuse": [
+                        0.3,
+                        0.45,
+                        0.6
+                    ]
+                },
+                "index": 1.0
+            }
+        },
+        {
+            "halfSpace": {
+                "position": [
+                    0,
+                    9,
+                    0
+                ],
+                "normal": [
+                    0,
+                    -1,
+                    0
+                ],
+                "color": {
+                    "ambient": [
+                        0.55,
+                        0.57,
+                        0.62
+                    ],
+                    "diffuse": [
+                        0.3,
+                        0.3,
+                        0.32
+                    ]
+                },
+                "index": 1.0
+            }
+        }
+    ]
+}

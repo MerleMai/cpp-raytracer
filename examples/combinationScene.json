@@ -1,0 +1,73 @@
+{
+    "screen": {
+        "dpi": 128,
+        "dimensions": [2, 4],
+        "position": [-1, -2, -10],
+        "observer": [0, 0, -20]
+    },
+
+    "medium": {
+        "ambient": [0.1, 0.1, 0.1],
+        "index": 1.0,
+        "recursion": 1
+    },
+
+    "sources": [],
+
+    "objects": [
+        {
+            "union": [
+                {
+                    "scaling": {
+                        "factors": [2, 2, 2],
+                        "subject": {
+                            "sphere": {
+                                "position": [0, 0, 0],
+                                "radius": 1,
+                                "color": {},
+                                "index": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "intersection": [
+                        {
+                            "halfSpace": {
+                                "position": [0, 0, 0],
+                                "normal": [1, 0, 0],
+                                "color": {},
+                                "index": 1
+                            }
+                        },
+                        {
+                            "difference": [
+                                {
+                                    "sphere": {
+                                        "position": [0, 0, 0],
+                                        "radius": 3,
+                                        "color": {},
+                                        "index": 1
+                                    }
+                                },
+                                {
+                                    "translation": {
+                                        "factors": [1, 0, 0],
+                                        "subject": {
+                                            "sphere": {
+                                                "position": [0, 0, 0],
+                                                "radius": 1,
+                                                "color": {},
+                                                "index": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "screen": {
+        "dpi": 128,
+        "dimensions": [2, 4],
+        "position": [-1, -2, -10],
+        "observer": [0, 0, -20]
+    },
+
+    "medium": {
+        "ambient": [0.1, 0.1, 0.1],
+        "index": 1.0,
+        "recursion": 1
+    },
+
+    "sources": [],
+
+    "objects": [
+        {
+            "scaling": {
+                "factors": [2, 3, 4],
+                "subject": {
+                    "translation": {
+                        "factors": [1, 2, 3],
+                        "subject": {
+                            "rotation": {
+                                "angle": 90,
+                                "direction": 2,
+                                "subject": {
+                                    "sphere": {
+                                        "position": [0, 0, 0],
+                                        "radius": 1,
+                                        "color": {},
+                                        "index": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
